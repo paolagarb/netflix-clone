@@ -41,16 +41,25 @@ header .container {
     justify-content: space-between;
 }
 
+.container {
+    margin-left: 20px;
+}
+
 .principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     font-size: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100%),url('img/the-100.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100%),url('../img/the-100.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    min-height:  100%;
+}
+
+.principal .container {
+    width: 80%;
 }
 
 .descricao {
@@ -83,5 +92,11 @@ header .container {
 }
 
 .botao i {
-    margin-right: 8px;;
+    margin-right: 8px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
