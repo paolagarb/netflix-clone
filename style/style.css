@@ -105,6 +105,60 @@ header .container {
     display: block;
 }
 
+.textIndex {
+    margin: 10vh 0 4vh 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.divPrincipalIndex div img {
+    margin-left: 4vh;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.divPrincipalIndex {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    margin-bottom: 10vh;
+}
+
+.mainIndex {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textIndexNomes {
+    margin-left: 40%;
+    color: rgba(255, 255, 255, 0.267);
+}
+
+.divPrincipalIndex div a img:hover {
+    color: rgb(255, 255, 255); 
+    border: 3px solid white; 
+}
+
+.buttonIndex:hover {
+    color: rgb(255, 255, 255); 
+    border: 2px solid rgba(255, 255, 255);
+}
+
+
+.buttonIndex {
+    background-color: var(--preto);
+    color: rgba(255, 255, 255, 0.438);
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    padding: 3px 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+
 @media screen and (max-width:600px) {
     header .container {
         display: flex;
