@@ -10,11 +10,18 @@
 }
 
 body {
-    /* background-color: var(--preto); */
-    background-color: 	rgb(50, 112, 63);
     font-family: 'Inter', sans-serif;
     font-size: 1.2em;
     color:#fff;
+}
+
+.page-index {
+    background-color: var(--preto);
+    height: 100vh;
+}
+
+.first-page {
+    background-color: rgb(50, 112, 63);
 }
 
 .logo {
@@ -26,7 +33,7 @@ header {
     height: 60px;
     position: fixed;
     top: 0;
-    background-color: black;
+    background-color: var(--preto);
     width: 100%;
     height: 70px;
 }
