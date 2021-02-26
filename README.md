@@ -62,5 +62,5 @@
  
  <hr>
  
- :heavy_exclamation_mark: Projeto realizado no Bootcamp HTML Developer - Digital Innovation One (com modificações)
+ :heavy_exclamation_mark: Projeto realizado no Bootcamp HTML Web Developer - Digital Innovation One (com modificações)
  
